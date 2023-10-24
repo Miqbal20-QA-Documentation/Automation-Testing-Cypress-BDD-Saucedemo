@@ -1,4 +1,5 @@
 Feature: Authentication functionality
+# https://www.linkedin.com/in/miqbal20s/
 
   @Positve @Auth
   Scenario Outline: Verify Success User login with username: <username>
@@ -23,7 +24,7 @@ Feature: Authentication functionality
 
     Examples:
       | username        | password     | error                                               | label                     |
-      | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out. | locked account                    |
+      | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out. | locked account            |
       | standard_user   |              | Epic sadface: Password is required                  | empty password            |
       |                 | secret_sauce | Epic sadface: Username is required                  | empty username            |
       |                 |              | Epic sadface: Username is required                  | empty username & password |
