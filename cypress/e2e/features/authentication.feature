@@ -15,15 +15,15 @@ Feature: Authentication functionality
       | visual_user   | secret_sauce |
 
   @Negative @Auth
-  Scenario Outline: Verify Failed User Login with username: <username>
+  Scenario Outline: Verify Failed User Login with <label>
     Given User on Login Pages Saucedemo
     When User fills valid <username> as username and <password> as password
     And User click on Login button
     Then User get message <error> as error
 
     Examples:
-      | username        | password     | error                                               |
-      | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out. |
-      | standard_user   |              | Epic sadface: Password is required                  |
-      |                 | secret_sauce | Epic sadface: Username is required                  |
-      |                 |              | Epic sadface: Username is required                  |
+      | username        | password     | error                                               | label                     |
+      | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out. | locked account                    |
+      | standard_user   |              | Epic sadface: Password is required                  | empty password            |
+      |                 | secret_sauce | Epic sadface: Username is required                  | empty username            |
+      |                 |              | Epic sadface: Username is required                  | empty username & password |
