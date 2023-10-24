@@ -1,0 +1,484 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Authentication functionality",
+    "line": 1,
+    "id": "authentication-functionality",
+    "tags": [],
+    "uri": "authentication.feature",
+    "elements": [
+      {
+        "id": "authentication-functionality;verify-success-user-login-with-username:-standard_user",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Success User login with username: standard_user",
+        "tags": [
+          {
+            "name": "@Positve",
+            "line": 3
+          },
+          {
+            "name": "@Auth",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 725000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User fills valid standard_user as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User redirect to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 652000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-success-user-login-with-username:-problem_user",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify Success User login with username: problem_user",
+        "tags": [
+          {
+            "name": "@Positve",
+            "line": 3
+          },
+          {
+            "name": "@Auth",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User fills valid problem_user as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 847000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User redirect to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 545000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-success-user-login-with-username:-error_user",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify Success User login with username: error_user",
+        "tags": [
+          {
+            "name": "@Positve",
+            "line": 3
+          },
+          {
+            "name": "@Auth",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User fills valid error_user as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User redirect to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 664000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-success-user-login-with-username:-visual_user",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify Success User login with username: visual_user",
+        "tags": [
+          {
+            "name": "@Positve",
+            "line": 3
+          },
+          {
+            "name": "@Auth",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User fills valid visual_user as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 887000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User redirect to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-failed-user-login-with-username:-locked_out_user",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify Failed User Login with username: locked_out_user",
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 17
+          },
+          {
+            "name": "@Auth",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User fills valid locked_out_user as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User get message Epic sadface: Sorry, this user has been locked out. as error",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-failed-user-login-with-username:-standard_user",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify Failed User Login with username: standard_user",
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 17
+          },
+          {
+            "name": "@Auth",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User fills valid standard_user as username and  as password",
+            "result": {
+              "status": "passed",
+              "duration": 643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User get message Epic sadface: Password is required as error",
+            "result": {
+              "status": "passed",
+              "duration": 520000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-failed-user-login-with-username:-",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify Failed User Login with username: ",
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 17
+          },
+          {
+            "name": "@Auth",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User fills valid  as username and secret_sauce as password",
+            "result": {
+              "status": "passed",
+              "duration": 649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User get message Epic sadface: Username is required as error",
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentication-functionality;verify-failed-user-login-with-username:-",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify Failed User Login with username: ",
+        "tags": [
+          {
+            "name": "@Negative",
+            "line": 17
+          },
+          {
+            "name": "@Auth",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User on Login Pages Saucedemo",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User fills valid  as username and  as password",
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User click on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User get message Epic sadface: Username is required as error",
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
