@@ -1,3 +1,1 @@
-# Automation-Testing-Cypress-BDD-Saucedemo-
-
-Just a sample
+## Hanya sample dokumentasi, masih gagal running
